@@ -1,6 +1,6 @@
 # Story book
 
-## contributor :
+## contributors :
 - Maeva benzina
 - Amandine donafilio
 - Cheik Kone
@@ -10,5 +10,5 @@
 
 ### maquettes
 
-![Maquettes](./Twitch\ -\ Style\ Guide.png)
+![Maquettes]("./Twitch\ -\ Style\ Guide.png")
 

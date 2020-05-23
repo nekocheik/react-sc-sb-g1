@@ -2,10 +2,13 @@ import React from "react";
 import Color from "../ui/atoms/Color";
 import Text from "../ui/atoms/Text";
 import styled from "styled-components";
+import { withA11y } from '@storybook/addon-a11y';
+
 
 export default {
   title: `Couleurs/ Thèmes et modes de couleurs`,
   component: Color,
+  decorators: [withA11y],
 };
 
 const ColorBlock = styled.div`

@@ -11,7 +11,8 @@ module.exports = {
         sourceLoaderOptions: null,
       },
     },
-    '@storybook/addon-docs/register'
+    '@storybook/addon-docs/register',
+    '@storybook/addon-a11y/register'
   ],
 
   

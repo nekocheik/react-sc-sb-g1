@@ -3,10 +3,12 @@ import StyleGuildColor from "../ui/particles/Colors";
 import Color from "../ui/atoms/Color";
 import Text from "../ui/atoms/Text";
 import styled from "styled-components";
+import { withA11y } from '@storybook/addon-a11y';
 
 export default {
   title: `Couleurs/Brand Colors-Couleurs de Marque`,
   component: Color,
+  decorators: [withA11y],
 };
 
 

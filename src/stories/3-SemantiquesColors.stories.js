@@ -4,10 +4,12 @@ import Color from "../ui/atoms/Color";
 import Text from "../ui/atoms/Text";
 import SubText from "../ui/atoms/SubText";
 import styled from "styled-components";
+import { withA11y } from '@storybook/addon-a11y';
 
 export default {
   title: `Couleurs/ Status Colors`,
   component: Color,
+  decorators: [withA11y],
 };
 
 

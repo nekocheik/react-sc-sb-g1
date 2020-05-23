@@ -5,10 +5,10 @@
 - Amandine donafilio
 - Cheik Kone
 
-[link of story book](./Twitch\ -\ Style\ Guide.png)
+[link of story book](https://storybook-bdk.netlify.app/?path=/story/couleurs-couleurs--couleurs)
 
 
 ### maquettes
 
-![Maquettes]()
+![Maquettes](./Twitch\ -\ Style\ Guide.png)
 

@@ -27,11 +27,11 @@ export const StatusColorsCouleursSemantiques =  () => {
   return(
     <>
       <Text weight="big" size="xl">Status Colors</Text>
-      <SubText color="#858585">Couleurs sémantiques</SubText>
+      <SubText bgColor="#858585">Couleurs sémantiques</SubText>
       <Text>Les couleurs sémantiques ont des significations précises et sont utilisées de manière cohérente. Ces couleurs doivent être utilisées avec parcimonie, afin d’éviter une surcharge d’informations.</Text>
       <ColorBlock>
-        <Color color="#54BC58">Success</Color>
-        <Color color="#D93528">Alert</Color>
+        <Color bgColor="#54BC58">Success</Color>
+        <Color bgColor="#D93528">Alert</Color>
       </ColorBlock>
     </>
   )

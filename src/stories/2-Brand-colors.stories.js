@@ -2,7 +2,6 @@ import React from "react";
 import StyleGuildColor from "../ui/particles/Colors";
 import Color from "../ui/atoms/Color";
 import Text from "../ui/atoms/Text";
-import SubText from "../ui/atoms/SubText";
 import styled from "styled-components";
 
 export default {
@@ -29,12 +28,12 @@ export const BrandColor =  () => {
   return(
     <>
       <Text weight="big" size="xl">Brand Colors</Text>
-      <Text color="#858585" size="small">Couleurs de Marque</Text>
+      <Text bgColor="#858585" size="small">Couleurs de Marque</Text>
       <Text text="xl">L’unique couleur de marque de Twitch est le violet électrique, accompagné de ses différentes nuances. Il est utilisé pour accentuer l’identité graphique de Twitch et rendre la plateforme reconnaissable.</Text>
       <ColorBlock>
-        <Color color="#772CE8">Brand dark</Color>
-        <Color color="#9146FF">Brand base</Color>
-        <Color color="#A970FF">brand light</Color>
+        <Color bgColor="#772CE8">Brand dark</Color>
+        <Color bgColor="#9146FF">Brand base</Color>
+        <Color bgColor="#A970FF">brand light</Color>
       </ColorBlock>
     </>
   )

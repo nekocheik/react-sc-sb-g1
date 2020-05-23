@@ -1,10 +1,6 @@
 import React from "react"
-import StyleGuildColor from "../ui/particles/Colors";
 import Color from "../ui/atoms/Color";
 import Text from "../ui/atoms/Text";
-import SubText from "../ui/atoms/SubText";
-import styled from "styled-components";
-import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 
 export default {
   title: `Couleurs/ Couleurs`,

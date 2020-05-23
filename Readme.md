@@ -1,7 +1,7 @@
 # Story book
 
 ## contributors :
-- Maeva benzina
+- Maeva Benzina
 - Amandine Donat-filliod
 - Cheik Kone
 

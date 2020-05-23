@@ -1,5 +1,3 @@
-const createCompiler = require('@storybook/addon-docs/mdx-compiler-plugin')
-
 module.exports = {
   stories: ['../src/**/*.stories.(js|mdx)'],
   addons: [
@@ -12,7 +10,7 @@ module.exports = {
       },
     },
     '@storybook/addon-docs/register',
-    '@storybook/addon-a11y/register'
+    '@storybook/addon-a11y/register',
   ],
 
   

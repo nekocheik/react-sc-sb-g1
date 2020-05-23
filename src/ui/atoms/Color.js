@@ -2,16 +2,16 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 
-
 const ColorBlock = styled.div`
-color: ${(props) => props.textColor};
-padding: 30px 30px;
-width: 100%;
-text-align: center;
-margin: 0 10px;
-flex-shrink: 1;
-font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-position: relative;
+  color: ${(props) => props.textColor};
+  padding: 30px 30px;
+  width: 100%;
+  text-align: center;
+  margin: 0 10px;
+  flex-shrink: 1;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  position: relative;
 `;
 
 const Background = styled.div`
@@ -31,10 +31,10 @@ const Wording = styled.div`
   position: relative;
 `;
 
-const Color = ({bgColor,textColor, children , opacity }) => {
+const Color = ({ bgColor, textColor, children, opacity }) => {
   return (
-    <ColorBlock textColor={textColor}  >
-      <Background bgColor={bgColor}  ></Background>
+    <ColorBlock textColor={textColor}>
+      <Background opacity={opacity} bgColor={bgColor}></Background>
       <Wording>
         <span>{children}</span>
         {children && bgColor ? <br /> : null}

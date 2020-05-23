@@ -2,7 +2,7 @@
 
 ## contributors :
 - Maeva benzina
-- Amandine donafilio
+- Amandine Donat-filliod
 - Cheik Kone
 
 [link of story book](https://storybook-bdk.netlify.app/?path=/story/couleurs-couleurs--couleurs)

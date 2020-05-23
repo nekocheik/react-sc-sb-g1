@@ -1,5 +1,12 @@
 # Story book
 
+## Setup
+
+    npm install
+
+    npm run storybook
+
+
 ## contributors :
 - Maeva Benzina / design
 - Amandine Donat-filliod / design

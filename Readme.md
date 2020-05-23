@@ -11,4 +11,3 @@
 ### maquettes
 
 ![Maquettes](Twitch-Style-Guide.png)
-

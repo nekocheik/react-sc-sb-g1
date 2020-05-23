@@ -3,16 +3,14 @@ import styled from "styled-components";
 import PropTypes from 'prop-types';
 import TextSize from '../particles/TextSize';
 
+const WarpperText = styled.p`
+  color:  ${props => props.color};
+  font-size:  ${props => TextSize[props.size]};
+  font-family: Roboto;
+`;
 
-
-const Text = ({ children, size = "small" ,color = "white", }) => {
-  const WarpperText = styled.p`
-  color:  ${props => color};
-  font-size:  ${props => TextSize[size]};
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-  `;
-
-  return(<WarpperText>{children}</WarpperText>)
+const Text = ({ children, size , color}) => {
+  return(<WarpperText size={size} color={color} >{children}</WarpperText>)
 }
 
 export default Text
@@ -22,4 +20,10 @@ Text.propTypes = {
   size: PropTypes.string,
   color: PropTypes.string,
   children: PropTypes.object,
+};
+
+Text.defaultProps = {
+  children: "",
+  size: "small",
+  color: "white",
 };

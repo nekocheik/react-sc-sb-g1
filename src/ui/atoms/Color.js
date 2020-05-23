@@ -31,7 +31,7 @@ const Wording = styled.div`
   position: relative;
 `;
 
-const Color = ({bgColor = "black",textColor = "white", children = "" , opacity = "100" }) => {
+const Color = ({bgColor,textColor, children , opacity }) => {
   return (
     <ColorBlock textColor={textColor}  >
       <Background bgColor={bgColor}  ></Background>
@@ -51,6 +51,13 @@ Color.propTypes = {
   textColor: PropTypes.string,
   opacity: PropTypes.string,
   children: PropTypes.object,
+};
+
+Color.defaultProps = {
+  bgColor: "black",
+  textColor: "white",
+  opacity: "100",
+  children: "",
 };
 
 export default Color;

@@ -3,7 +3,7 @@ import StyleGuildColor from "../ui/particles/Colors";
 import Color from "../ui/atoms/Color";
 import Text from "../ui/atoms/Text";
 import SubText from "../ui/atoms/SubText";
-import styled from "styled-components";;
+import styled from "styled-components";
 
 export default {
   title: `Couleurs/Brand Colors-Couleurs de Marque`,

@@ -7,9 +7,9 @@ import TextSize from '../particles/TextSize';
 
 const Text = ({ children, size = "base", weight = "midel" ,color = "white", }) => {
   const WarpperText = styled.p`
-  color:  ${props => color};
+  color:  ${color};
   font-size:  ${TextSize[size]};
-  font-weight: ${props => weight !== "big" ? "200" : "800"};
+  font-weight: ${weight !== "big" ? "200" : "800"};
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   `;
   
@@ -23,4 +23,5 @@ Text.propTypes = {
   size: PropTypes.string,
   color: PropTypes.string,
   children: PropTypes.object,
+  weight: PropTypes.string,
 };

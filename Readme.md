@@ -1,9 +1,9 @@
 # Story book
 
 ## contributors :
-- Maeva benzina
-- Amandine donafilio
-- Cheik Kone
+- Maeva benzina / design
+- Amandine donafilio / design
+- Cheik Kone / Dev
 
 [link of story book](https://storybook-bdk.netlify.app/?path=/story/couleurs-couleurs--couleurs)
 
